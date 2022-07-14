@@ -6,9 +6,7 @@ import toliver from '../assets/toliver.jpeg'
 import mindsetCover from '../assets/mindset.png'
 import mindset from '../assets/mindset1.mp3';
 
-
-
-export default [
+const tracks = [
   {
     title: "Mindset",
     artist: "Carol Dweck",
@@ -37,3 +35,4 @@ export default [
 ];
 // All of these artists are at https://pixabay.com/music/search/mood/laid%20back/
 
+export default tracks;
