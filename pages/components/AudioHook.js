@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const AudioHook = () => {
     //state
@@ -60,4 +60,4 @@ const AudioHook = () => {
 
 
 }
-export { AudioHook };
+export default AudioHook;

@@ -163,4 +163,4 @@ const AudioPlayer = () => {
   );
 };
 
-export { AudioPlayer };
+export default AudioPlayer;
