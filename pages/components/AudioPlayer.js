@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { FaPlay, FaPause, FaAngleDoubleLeft, FaAngleDoubleRight, FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import styles from "/styles/AudioPlayer.module.css";
-import tracks from "./tracks";
+import tracks from "../../public/assets/js/tracks";
 // import win from "../assets/bigwin-logo.png";
 
 const AudioPlayer = () => {
